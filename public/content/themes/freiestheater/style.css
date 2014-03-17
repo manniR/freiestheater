@@ -1,6 +1,6 @@
 /*
  Theme Name:   freiestheater
- Theme URI:    ..
+ Theme URI:
  Description:  Responsive Theme based on Twitter Bootstrap Theme
  Author:       MR
  Author URI:   http://manfredraggl.com
@@ -168,5 +168,9 @@ body > footer {
 
 body > footer .supplementary{background: white; border-top: 1px solid #020202; font-size: 0.8em;padding-top: 0.8em;}
 
-
+/*
+ GALLERY
+*/
+.gallery {list-style:none;overflow:hidden;}
+.gallery > li {float:left; padding:1em;}
 
