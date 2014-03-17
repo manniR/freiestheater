@@ -48,7 +48,7 @@
 
             <div class="navbar-collapse collapse ">
                 <ul class="nav navbar-nav pull-left">
-                    <li class=""><a href="#">Akt uell</a></li>
+                    <li class=""><a href="aktuell">Akt uell</a></li>
                     <li class="seperator">|</li>
                     <li class="active"><a href="#">Liebes Akt</a></li>
                     <li class="seperator">|</li>
