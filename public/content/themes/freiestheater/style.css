@@ -4,7 +4,7 @@
  Description:  Responsive Theme based on Twitter Bootstrap Theme
  Author:       MR
  Author URI:   http://manfredraggl.com
- Template:     
+ Template:
  Version:      1.0.0
  Tags:         responsive-layout
  Text Domain:  freiestheater
@@ -14,49 +14,41 @@
    Author's custom styles
    ========================================================================== */
 
-/*hide subnav on smaller screens and show on collapsed menu*/
-@media screen and (max-width: 765px) {
 
-    #sidebar1 {display:none;}
+@font-face {
+    font-family: 'premieraregular';
+    src: url('fonts/premiera-book-webfont.eot');
+    src: url('fonts/premiera-book-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/premiera-book-webfont.woff') format('woff'),
+    url('fonts/premiera-book-webfont.ttf') format('truetype'),
+    url('fonts/premiera-book-webfont.svg#premieraregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
+
+
+
 
 
 /*center navbar*/
-@media (min-width: 768px) {
-    .navbar-nav {
-        float: none;
-        margin: 0 auto;
-        display: table;
-        table-layout: fixed;
-    }
-
-    .nav > li > a {
-        position: relative;
-        display: block;
-        padding: 10px 22px;
-    }
+@media (max-width: 768px) {
+    .navbar-nav .seperator{display: none;}
 }
 
 @media (min-width: 1000px) {
-    .nav > li > a {
-        position: relative;
-        display: block;
-        padding: 10px 44px;
-    }
+
 }
 
-.navbar-default {
-    font-size: 1.7em;
-    font-weight: 800;
-}
+/*
+ HEADER IMAGE
+*/
 
-.header-image {
-    width: 100%;
-}
+.header-image {width: 100%;}
 
 .header-feature {
     position: relative;
-    /*text-align: center;*/
+
 }
 
 #logo {
@@ -65,132 +57,116 @@
     position: absolute;
     left: 10%;
     bottom: -11px;
-    z-index: 11111;
+    z-index:0;
 }
 
-/*FOOTER*/
-/* Sticky footer styles */
-html {
+/*
+ CUSTOM FONTS
+*/
+h4 {font-size: 1em; font-weight: 800;}
+.navbar-nav a, h1, h2,time {font-family: premieraregular;}
+
+/*
+ NAVIGATION AND LINKS
+*/
+.navbar-nav {margin: 7px -7px}
+
+.navbar-nav li a{margin: 0;padding: 0.5em;}
+.navbar-default {font-size: 1.5em;line-height: 1.9em;}
+.navbar-footer li {line-height: 2.3em;}
+
+
+
+/*
+ HELPER classes
+*/
+
+.smaller{font-size: small;padding-top: 1.5em;}
+
+.margL0{margin-left: 0 !important;}
+.margR0{margin-right: 0 !important;}
+.margLR0{margin-left: 0 !important;margin-right: 0 !important;}
+.marg0{margin: 0 !important;}
+.paddL0{padding-left: 0 !important;}
+.paddR0{padding-right: 0 !important;}
+.paddLR0{padding-left: 0 !important;padding-right: 0 !important;}
+.padd0{padding: 0 !important;}
+
+
+/*
+ EVENT LISTING
+*/
+
+section.eventlist .eventlist-header .col-link-all-events{line-height: 4em; text-align: right;margin-top: 0.45em}
+
+article.event time {line-height: 3em;}
+article.event time > span {
     position: relative;
-    min-height: 100%;
-}
-body {
-    /* Margin bottom by footer height */
-    margin-bottom: 120px;
-}
-footer {
-    /*sticks footer to bottom*/
-    position: absolute;
-    bottom: 0;
     width: 100%;
+    background: #020202;
+    color: #f9f9f9;
+    padding: 0.5em 0.5em 0em 0.5em;
+    float: left;
+    line-height: 2em;
+}
+article.event time > span > span:first-child{font-size: 2em; padding-right: 0.1em;} /*tag*/
+article.event time > span > span:last-child{font-size: 1.4em;position: absolute;right:0.5em;bottom:0;} /*zeit*/
+article.odd .col-event-info {float: right;}
+article.odd .col-event-info .row .col-event-date {float: right;}
+article.event {margin-bottom: 2em;}
+section.about {}
+
+
+
+
+/*
+ EVENT LISTING HELPER CLASSES
+*/
+.w100{width: 100%;}
+.border-top-black {border-top: 3px solid #020202;}
+.border-top-orange {border-top: 3px solid orangered;}
+.orange-bg{background: orangered;}
+.green{background: green}
+.col-33{width: 33.33333333333333%;float: left;} /*33%*/
+.col-66{width: 66.66666666666666%;float: left;padding-left: 1em} /*67%*/
+.col-50{min-width:50%;}
+.ticket-symbol{display: block;width:100%;height:60px;background-size:100%;background-image: url('img/ticket-symbol.png');background-repeat: no-repeat;background-position: 0px 6px }
+.tickets-info{}
+.bb{font-size: 1.3em; font-weight: 600;}
+.accentuate{font: 1.5em premieraregular, serif;}
+.premiera-smaller{font: 0.9em premieraregular, serif; color: #020202;}
+
+/*
+ BESTELLFORMULAR
+*/
+.ticket-from-bg-left {display:block;width: 100%;height: 100%; text-align: right;padding: 0.2em 1em;font: 2em premieraregular ;background-size:100%;background-image: url('img/tickeBG-left.png');background-repeat: repeat-y;background-position: 0px 0px}
+.form-ticketreservierung{background-color: #a0aeb2;padding:0.5em}
+.form-group-anzahl label.control-label{ font-weight:300;text-align: left;padding: 0;line-height: 2.5em;}
+.form-event-title > p > span{display: block;font-weight: 800;font-size: 1.4em}
+.form-ticketreservierung .form-group input{background: #f2f2f2; }
+.form-ticketreservierung .ticket-form-note{font-size: 0.9em;}
+/*
+ FOOTER
+*/
+
+/* Sticky footer styles */
+html {position: relative;/*min-height: 100%;*/}
+/* Margin bottom by footer height */
+body {/*margin-bottom: 320px*/;color: #020202;}
+
+body > footer {
+    /*sticks footer to bottom*/
+    /*position: absolute;*/
+    /*bottom: 0;*/
+    /*width: 100%;*/
     /* Set the fixed height of the footer here */
-    height: 120px;
-    /*set full width bg-color if necesarry*/
+    /*min-height: 320px;*/
+    /*set full width bg-color if necessary*/
+    background:#f8f8f8;
 }
 
 
-
-/*extends footer to bottom*/
-#container > footer{
-    /*box-shadow: 0px 500px 0px 500px #000;*/
-}
-#inner-footer{
-    height: 320px; /*sets headerheight!*/
-    margin:0 auto;
-    background: black;
-    color:white;
-}
-#inner-footer a{
-    color:#efefef;
-}
-.footer-links{
-    float:none;
-}
-
-footer .menu{
-    padding:0;
-}
-#inner-footer a{
-    color:gray;
-}
-
-
-#inner-footer .nav a:hover, #inner-footer .nav li.active a, #inner-footer .nav li.active a:hover, #inner-footer .nav li{
-    background:transparent;
-    color:white;
-}
-footer nav p {
-    margin-left:16px;
-    font-size:0.6em
-}
-
-
-#footer-main-menu a {
-    font-size:0.4em;
-    line-height: 1.5em;
-    padding:0;
-    /*padding-bottom:0.3em;*/
-}
-
-
-
-/*ACCORDION*/
-.panel {
-    border-radius:0;
-    border:0;
-    box-shadow: 0 0 0;
-
-}
-.panel  a{
-    color:black;
-}
-.panel h4 {
-    padding:1em 0;
-}
-.panel-title span:first-child{
-    padding-right:2em;
-    padding-left:1em;
-}
-
-/*panel open state*/
-.panel-title  span.glyphicon { visibility: hidden;}
-.panel > div > a:hover, .panel > div > a {
-    display:block;
-    background:#fff;
-    text-decoration:none;
-}
-/*panel close state*/
-.panel > div > .collapsed > .panel-title span.glyphicon { visibility: visible;}
-.panel > div > .collapsed {
-    background:#efefef;
-}
-
-/*panel expandable content*/
-.panel-body{
-    margin-left:8.6em;
-    background:#fff;
-}
-.dl-horizontal dd{
-    margin-left: 80px;
-}
-.dl-horizontal dt{
-    float:left;
-    text-align: left;
-    width: 80px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
+body > footer .supplementary{background: white; border-top: 1px solid #020202; font-size: 0.8em;padding-top: 0.8em;}
 
 
 

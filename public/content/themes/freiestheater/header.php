@@ -26,13 +26,6 @@
   <?php wp_head(); ?>
   <!-- end of wordpress head -->
 
-  <style>
-    body {
-      /*padding-top: 50px;
-      padding-bottom: 20px;*/
-    }
-  </style>
-
 </head>
 <body <?php body_class(); ?>>
 <!--[if lt IE 7]>
@@ -40,33 +33,54 @@
   your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to
   improve your experience.</p>
 <![endif]-->
-
 <header>
-  <div class="container header-feature">
-    <img class="header-image img-responsive" src="img/herbert-pixner-header.jpg" alt=""/>
+<div class="container">
+    <h1>"Frei est heater in nsbruck."</h1>
 
-    <img id="logo" src="img/herbert-pixner-logo.svg" alt=""/>
 
-  </div>
+    <nav class="navbar-default row">
+        <div class="col-sm-9 padd0">
+            <a class="btn navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar" style="color: #000000  "></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </a>
 
-  <div class="navbar navbar-default">
-    <div class="container">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <!--<a class="navbar-brand" href="#">Project name</a>-->
+            <div class="navbar-collapse collapse ">
+                <ul class="nav navbar-nav pull-left">
+                    <li class=""><a href="#">Akt uell</a></li>
+                    <li class="seperator">|</li>
+                    <li class="active"><a href="#">Liebes Akt</a></li>
+                    <li class="seperator">|</li>
+                    <li><a href="#">Kont Akt</a></li>
+                    <li class="seperator">|</li>
+                    <li><a href="#">Pro Gramm</a></li>
+                    <li class="seperator">|</li>
+                    <li><a href="#">Reservierung</a></li>
+                    <li class="seperator">|</li>
+                    <li><a href="#">Presse</a></li>
+                </ul>
 
-      <div class="navbar-collapse collapse">
-        <ul class="nav navbar-nav center-block">
-          <li class="active"><a href="#">project</a></li>
-          <li><a href="#about">offroad</a></li>
-          <li><a href="#contact">three saints records</a></li>
-          <li><a href="#contact">shop</a></li>
-        </ul>
-      </div>
-      <!--/.navbar-collapse -->
-    </div>
-  </div>
+
+            </div>
+
+        </div>
+        <div class="col-sm-3 pull-right">
+            <form class="navbar-form" role="search">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search" name="srch-term"
+                           id="srch-term">
+
+                    <div class="input-group-btn">
+                        <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i>
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </nav>
+</div>
 </header>
+
+
+

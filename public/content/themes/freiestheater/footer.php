@@ -1,51 +1,56 @@
 <footer role="contentinfo" class="">
-  <div class="container">
-    <div id="inner-footer" class="clearfix row">
+    <div class="border-top-black"></div>
+    <!--LINE-->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8 ">
+                <div class="row">
+                    <nav class="col-xs-12">
+                        <ul class="nav navbar-nav navbar-footer">
+                            <li><a href="#">Akt uell</a></li>
+                            <li class="seperator">|</li>
+                            <li><a href="#">Liebes Akt</a></li>
+                            <li class="seperator">|</li>
+                            <li><a href="#">Kont Akt</a></li>
+                            <li class="seperator">|</li>
+                            <li><a href="#">Pro Gramm</a></li>
+                            <li class="seperator">|</li>
+                            <li><a href="#">Reservierung</a></li>
+                            <li class="seperator">|</li>
+                            <li><a href="#">Presse</a></li>
+                        </ul>
+                    </nav>
+                    <div class="col-xs-12 premiera-smaller">
+                        <p>Kontakt: Wilhelm-Greil-Straße 23, 6020 Innsbruck</p>
 
-      <div id="widget-footer" class="clearfix row">
-		            <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer1') ) : ?>
-		            <?php endif; ?>
-		            <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer2') ) : ?>
-		            <?php endif; ?>
-		            <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer3') ) : ?>
-		            <?php endif; ?>
-		          </div>
+                        <p>Stefan Raab, mobil +43 681 20462468, s.raab(at)freiestheater.at <br>
+                            Daniel Dlouhy, d.dlouhy(at)freiestheater.at</p>
+                    </div>
 
-      <nav class="nav clearfix col-md-6">
-        <p class="footer-title"><?php bloginfo('name'); ?></p>
-        <?php //wp_bootstrap_footer_links(); // Adjust using Menus in Wordpress Admin ?>
-        <?php mr_footer_menu(); // Adjust using Menus in Wordpress Admin ?>
-      </nav>
+                </div>
+            </div>
 
-      <!--					<p class="pull-right"><a href="http://320press.com" id="credit320" title="By the dudes of 320press">320press</a></p>-->
-      <div class="col-md-6">
-        <div class="clearfix">
-                            <span class="fa-stack fa-lg fa-2x pull-right">
-                          <!--<i class="fa fa-square-o fa-stack-2x"></i>-->
-                          <i class="fa fa-facebook fa-stack-1x white"></i>
-                        </span>
-                        <span class="fa-stack fa-lg fa-2x pull-right">
-                          <!--<i class="fa fa-square-o fa-stack-2x"></i>-->
-                          <i class="fa fa-twitter fa-stack-1x white"></i>
-                        </span>
+            <div class="col-sm-4">
+                <form action="newsletter" role="form">
+                    <label for="inputEmail"><span class="premiera-smaller">Newsletter abonnieren</span></label>
+                    <input type="email" class="form-control" id="inputEmail" placeholder="Email"/>
+                </form>
+
+            </div>
+
         </div>
-        <div class="text-right">
+    </div>
+    <div class="supplementary">
+        <div class="container">
+            <div class="pull-left">
+                <p>© Freies Theater Innsbruck | <a href="#">Impressum</a></p>
+            </div>
+            <div class="pull-right">
+                <p>Webdesign <a href="#">manfredraggl.com</a> <a href="#">hofergrafik.at</a></p>
+            </div>
 
-          <address>
-            Herbert Pixner<br/>
-            Dreiheiligestrass 21<br/>
-            6020 Innsbrcuk
-          </address>
-          <address>
-            <a href="mailto:#">info@herbertpixner.com</a><br/>
-            <abbr title="Phone">tel:</abbr> 00000000
-          </address>
         </div>
-      </div> <!--end col-->
-
-    </div> <!-- end #inner-footer -->
-
-  </div> <!--end container div-->
+    </div>
 </footer> <!-- end footer -->
 
 <!--[if lt IE 7 ]>
