@@ -32,7 +32,11 @@ add_image_size( 'wpbs-featured-carousel', 970, 400, true);
 
 // Add Thumbnail Support
 <<<<<<< HEAD
+<<<<<<< HEAD
 add_theme_support('post-thumbnails', array ('post','produktion','presse','custom_post'));
+=======
+add_theme_support('post-thumbnails', array ('post','produktion','custom_post'));
+>>>>>>> bcdaa6fc43ec7c3deefe5662100afcca68d28b97
 =======
 add_theme_support('post-thumbnails', array ('post','produktion','custom_post'));
 >>>>>>> bcdaa6fc43ec7c3deefe5662100afcca68d28b97
