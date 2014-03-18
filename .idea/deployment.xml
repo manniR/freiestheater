@@ -5,15 +5,8 @@
       <paths name="wordpress.freiestheater.at">
         <serverdata>
           <mappings>
-            <mapping deploy="/" local="$PROJECT_DIR$/public" web="/" />
+            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
           </mappings>
-          <excludedPaths>
-            <excludedPath local="true" path="$PROJECT_DIR$/public/content/themes/320-child" />
-            <excludedPath local="true" path="$PROJECT_DIR$/public/content/themes/320press" />
-            <excludedPath local="true" path="$PROJECT_DIR$/public/content/plugins/testplug" />
-            <excludedPath local="true" path="$PROJECT_DIR$/public/content/plugins/ideenlandkarte" />
-            <excludedPath local="true" path="$PROJECT_DIR$/public/content/plugins/ideenlandkarte" />
-          </excludedPaths>
         </serverdata>
       </paths>
     </serverData>

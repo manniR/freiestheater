@@ -48,17 +48,18 @@
 
             <div class="navbar-collapse collapse ">
                 <ul class="nav navbar-nav pull-left">
+
                     <li class=""><a href="aktuell">Akt uell</a></li>
                     <li class="seperator">|</li>
-                    <li class="active"><a href="#">Liebes Akt</a></li>
+                    <li class="<?= (is_page('liebesakt')?'active':'') ?>"><a href="/liebesakt">Liebes Akt</a></li>
                     <li class="seperator">|</li>
-                    <li><a href="#">Kont Akt</a></li>
+                    <li class="<?= (is_page('kontakt')?'active':'') ?>"><a href="/kontakt">Kont Akt</a></li>
                     <li class="seperator">|</li>
-                    <li><a href="#">Pro Gramm</a></li>
+                    <li class="<?= (is_page('programm')?'active':'') ?>"><a href="/programm">Pro Gramm</a></li>
                     <li class="seperator">|</li>
-                    <li><a href="#">Reservierung</a></li>
+                    <li class="<?= (is_page('reservierung')?'active':'') ?>"><a href="/reservierung">Reservierung</a></li>
                     <li class="seperator">|</li>
-                    <li><a href="#">Presse</a></li>
+                    <li class="<?= (is_page('presse')?'active':'') ?>"><a href="/presse">Presse</a></li>
                 </ul>
 
 

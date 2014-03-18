@@ -23,7 +23,7 @@
                     <div class="col-xs-12 premiera-smaller">
                         <p>Kontakt: Wilhelm-Greil-Straße 23, 6020 Innsbruck</p>
 
-                        <p>Stefan Raab, mobil +43 681 20462468, s.raab(at)freiestheater.at <br>
+                        <p>Carmen Sulzenbacher, mobil +43 664 1129285, c.sulzenbacher(at)freiestheater.at <br>
                             Daniel Dlouhy, d.dlouhy(at)freiestheater.at</p>
                     </div>
 

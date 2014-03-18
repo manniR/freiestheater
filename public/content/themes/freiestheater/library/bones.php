@@ -78,3 +78,6 @@ function wp_bootstrap_theme_support() {
     )
   );
 }
+
+// launching this stuff after theme setup
+add_action('after_setup_theme','wp_bootstrap_theme_support');

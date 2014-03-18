@@ -126,4 +126,11 @@ class Bootstrap_walker extends Walker_Nav_Menu{
     }
     return parent::display_element( $element, $children_elements, $max_depth, $depth, $args, $output );
   }
+
+  function end_el( &$output, $item, $depth = 0, $args = array() )
+  {
+   $output .= '';
+  }
+
+
 }

@@ -27,6 +27,15 @@
 
 }
 
+/*
+ adding | to all nav item except last
+*/
+
+#menu-haupt-menu > li:first-child:after , #menu-haupt-menu > li:after { content:'|'}
+#menu-haupt-menu > li {margin:0 0.4em 0 0.2em;padding:0; line-height:2.5em}
+#menu-haupt-menu > li a {float:left;}
+#menu-haupt-menu > li:last-child:after {content: '' }
+
 
 
 
@@ -105,7 +114,7 @@ article.event time > span {
     width: 100%;
     background: #020202;
     color: #f9f9f9;
-    padding: 0.5em 0.5em 0em 0.5em;
+    padding: 0.15em 0.5em 0em 0.5em;
     float: left;
     line-height: 2em;
 }
