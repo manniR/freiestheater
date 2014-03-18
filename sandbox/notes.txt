@@ -1,0 +1,11 @@
+STARTSEITE ->	Der nächster Akt … aktuellsten termine (even / odd)
+			LINK -> wollen sie alle sehen (programm)
+			Liebes Akt
+			Kontakt ier uns
+			Vorbrenner 14
+
+PROGRAMM	 ->	Listing aktuelles Verantstaltung zuerst (even / odd)
+			LINK -> alte Hüte (alle Produktionen) 	
+
+PRESSE	 ->	wie programmlisting (nur even) 	
+	

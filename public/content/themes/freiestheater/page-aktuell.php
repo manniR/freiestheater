@@ -112,7 +112,7 @@ setlocale(LC_ALL, 'de_DE.utf-8'); //  deutsche Monatsnamen
           echo '</pre>';*/
           ?>
         <li class="image">
-          <img  src=" <?= get_sub_field('bild')['sizes']['medium']  ?>">
+          <img  src="<?php $bild = get_sub_field('bild'); echo $bild['sizes']['medium']; ?> ">
         </li>
 
         <?php endwhile; ?>

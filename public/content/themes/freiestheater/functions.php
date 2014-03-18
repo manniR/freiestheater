@@ -31,7 +31,7 @@ add_image_size( 'wpbs-featured-home', 970, 311, true);
 add_image_size( 'wpbs-featured-carousel', 970, 400, true);
 
 // Add Thumbnail Support
-add_theme_support('post-thumbnails', array ('post','produktion','custom_post'));
+add_theme_support('post-thumbnails', array ('post','produktion','presse','custom_post'));
 
 /*
 to add more sizes, simply copy a line from above
