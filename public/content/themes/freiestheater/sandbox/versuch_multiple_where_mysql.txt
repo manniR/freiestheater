@@ -1,0 +1,53 @@
+
+/**
+ * PROGRAMM - LISTING PRODUKTIONEN
+ * AKTUELLES DATUM ZUERST
+ *
+ * @param int $limit
+ * @return mixed
+ */
+function get_programm($limit=4 ){
+
+    global $wpdb;
+    $rows = $wpdb->get_results($wpdb->prepare(
+      "
+        SELECT
+            p.*,
+            NOW() as zeit,
+            CONCAT('[',
+                GROUP_CONCAT('{\"',e.meta_key,'\":','\"',e.meta_value,'\"}')
+                ,']') as post_events_json
+
+        FROM
+             $wpdb->posts p,
+             $wpdb->postmeta e
+
+        WHERE
+             p.post_type LIKE %s
+             AND e.post_id = p.ID
+             AND e.meta_key LIKE %s
+             AND e.meta_value >= %s
+             OR e.meta_key LIKE %s AND e.post_id = p.ID
+
+        group by
+            p.ID
+        ORDER by
+            e.meta_value ASC
+        LIMIT
+            0, $limit
+        ",
+      'produktion', //posttype
+      'events_%_datum', // meta_name: $ParentName_$RowNumber_$ChildName
+      strtotime("now"), // meta_value: 'type_3' for example
+      'events_%_freie_plaetze'
+
+    ));
+    //setlocale(LC_ALL, 'de_DE.utf-8'); //  deutsche Monatsnamen
+    /*echo'';
+    echo '<pre>';
+    var_dump($rows);
+    echo '</pre>';*/
+
+    return $rows;
+
+}

@@ -22,18 +22,22 @@ function flushRules()
 // Adding a new rule
 function wp_insertMyRewriteRules($rules)
 {
-  $newrules = array();
-  $newrules['programm/(.+)'] = 'index.php?pagename=programm&monat=$matches[1]';
-  $finalrules = $newrules + $rules;
-  return $finalrules;
+		$newrules = array();
+		$newrules['programm/(.+)/(.+)'] = 'index.php?pagename=programm&month=$matches[1]&year=$matches[2]';
+		$newrules['api/(.+)/(.+)'] = 'index.php?pagename=api&type=$matches[1]&year=$matches[2]';
+		$finalrules = $newrules + $rules;
+		return $finalrules;
 }
 
 // Adding the var so that WP recognizes it
 function wp_insertMyRewriteQueryVars($vars)
 {
-  array_push($vars, 'monat');
-  return $vars;
+		array_push($vars, 'month');
+		array_push($vars, 'year');
+		return $vars;
 }
+
+
 
 //Stop wordpress from redirecting
 remove_filter('template_redirect', 'redirect_canonical');

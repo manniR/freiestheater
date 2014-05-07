@@ -6,7 +6,6 @@
 var_dump($wp_query);
 echo '</pre>';*/
 
-
 $rows = $wpdb->get_results($wpdb->prepare(
     "
     SELECT * FROM $wpdb->posts inner join $wpdb->postmeta ON $wpdb->posts.ID = $wpdb->postmeta.post_id

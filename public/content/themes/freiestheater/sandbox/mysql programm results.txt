@@ -1,0 +1,425 @@
+array(7) {
+  [0]=>
+  object(stdClass)#2616 (27) {
+    ["ID"]=>
+    string(2) "91"
+    ["post_author"]=>
+    string(1) "1"
+    ["post_date"]=>
+    string(19) "2014-03-23 21:43:06"
+    ["post_date_gmt"]=>
+    string(19) "2014-03-23 21:43:06"
+    ["post_content"]=>
+    string(12) "lorem loresm"
+    ["post_title"]=>
+    string(12) "Lawinentraum"
+    ["post_excerpt"]=>
+    string(0) ""
+    ["post_status"]=>
+    string(7) "publish"
+    ["comment_status"]=>
+    string(4) "open"
+    ["ping_status"]=>
+    string(4) "open"
+    ["post_password"]=>
+    string(0) ""
+    ["post_name"]=>
+    string(12) "lawinentraum"
+    ["to_ping"]=>
+    string(0) ""
+    ["pinged"]=>
+    string(0) ""
+    ["post_modified"]=>
+    string(19) "2014-03-23 21:43:06"
+    ["post_modified_gmt"]=>
+    string(19) "2014-03-23 21:43:06"
+    ["post_content_filtered"]=>
+    string(0) ""
+    ["post_parent"]=>
+    string(1) "0"
+    ["guid"]=>
+    string(59) "http://dev.freiestheater.at/?post_type=produktion&p=91"
+    ["menu_order"]=>
+    string(1) "0"
+    ["post_type"]=>
+    string(10) "produktion"
+    ["post_mime_type"]=>
+    string(0) ""
+    ["comment_count"]=>
+    string(1) "0"
+    ["meta_id"]=>
+    string(3) "581"
+    ["post_id"]=>
+    string(2) "91"
+    ["meta_key"]=>
+    string(14) "events_1_datum"
+    ["meta_value"]=>
+    string(10) "1395705600"
+  }
+  [1]=>
+  object(stdClass)#2615 (27) {
+    ["ID"]=>
+    string(1) "6"
+    ["post_author"]=>
+    string(1) "1"
+    ["post_date"]=>
+    string(19) "2014-03-17 11:32:15"
+    ["post_date_gmt"]=>
+    string(19) "2014-03-17 11:32:15"
+    ["post_content"]=>
+    string(836) "Ein Gastspiel des Stadttheaters Kufstein
+
+Regisseur Klaus Reitberger inszeniert den 2456 Jahre alten Polit-Psycho-Thriller „Antigone“, das wohl bekannteste Stück von Sophokles.
+
+
+
+Es ist ein Juwel der Weltliteratur, ein kostbares Vermächtnis aus den Uranfängen der Theatergeschichte im antiken Griechenland. Erzählt wird ein blutiger Reigen aus Machtstreben und Familienliebe. Nichts ist hier verstaubt. Die Fragen, mit denen uns die Geschichte der Antigone – Tochter des Ödipus – entgegentritt, haben auch in unserer Gegenwart nichts an ihrer Sprengkraft eingebüßt.
+
+Modern inszeniert von Klaus Reitberger, doch mit klassischen Texten, spielt das Stadttheater Kufstein dieses griechische Drama in der Art eines Stubenspieles. Es gibt keine Bühne. Es wird mitten im Publikum gespielt."
+    ["post_title"]=>
+    string(8) "Antigone"
+    ["post_excerpt"]=>
+    string(0) ""
+    ["post_status"]=>
+    string(7) "publish"
+    ["comment_status"]=>
+    string(4) "open"
+    ["ping_status"]=>
+    string(4) "open"
+    ["post_password"]=>
+    string(0) ""
+    ["post_name"]=>
+    string(8) "antigone"
+    ["to_ping"]=>
+    string(0) ""
+    ["pinged"]=>
+    string(0) ""
+    ["post_modified"]=>
+    string(19) "2014-03-23 21:41:30"
+    ["post_modified_gmt"]=>
+    string(19) "2014-03-23 21:41:30"
+    ["post_content_filtered"]=>
+    string(0) ""
+    ["post_parent"]=>
+    string(1) "0"
+    ["guid"]=>
+    string(58) "http://dev.freiestheater.at/?post_type=produktion&p=6"
+    ["menu_order"]=>
+    string(1) "0"
+    ["post_type"]=>
+    string(10) "produktion"
+    ["post_mime_type"]=>
+    string(0) ""
+    ["comment_count"]=>
+    string(1) "0"
+    ["meta_id"]=>
+    string(3) "544"
+    ["post_id"]=>
+    string(1) "6"
+    ["meta_key"]=>
+    string(14) "events_4_datum"
+    ["meta_value"]=>
+    string(10) "1395759600"
+  }
+  [2]=>
+  object(stdClass)#2614 (27) {
+    ["ID"]=>
+    string(1) "6"
+    ["post_author"]=>
+    string(1) "1"
+    ["post_date"]=>
+    string(19) "2014-03-17 11:32:15"
+    ["post_date_gmt"]=>
+    string(19) "2014-03-17 11:32:15"
+    ["post_content"]=>
+    string(836) "Ein Gastspiel des Stadttheaters Kufstein
+
+Regisseur Klaus Reitberger inszeniert den 2456 Jahre alten Polit-Psycho-Thriller „Antigone“, das wohl bekannteste Stück von Sophokles.
+
+
+
+Es ist ein Juwel der Weltliteratur, ein kostbares Vermächtnis aus den Uranfängen der Theatergeschichte im antiken Griechenland. Erzählt wird ein blutiger Reigen aus Machtstreben und Familienliebe. Nichts ist hier verstaubt. Die Fragen, mit denen uns die Geschichte der Antigone – Tochter des Ödipus – entgegentritt, haben auch in unserer Gegenwart nichts an ihrer Sprengkraft eingebüßt.
+
+Modern inszeniert von Klaus Reitberger, doch mit klassischen Texten, spielt das Stadttheater Kufstein dieses griechische Drama in der Art eines Stubenspieles. Es gibt keine Bühne. Es wird mitten im Publikum gespielt."
+    ["post_title"]=>
+    string(8) "Antigone"
+    ["post_excerpt"]=>
+    string(0) ""
+    ["post_status"]=>
+    string(7) "publish"
+    ["comment_status"]=>
+    string(4) "open"
+    ["ping_status"]=>
+    string(4) "open"
+    ["post_password"]=>
+    string(0) ""
+    ["post_name"]=>
+    string(8) "antigone"
+    ["to_ping"]=>
+    string(0) ""
+    ["pinged"]=>
+    string(0) ""
+    ["post_modified"]=>
+    string(19) "2014-03-23 21:41:30"
+    ["post_modified_gmt"]=>
+    string(19) "2014-03-23 21:41:30"
+    ["post_content_filtered"]=>
+    string(0) ""
+    ["post_parent"]=>
+    string(1) "0"
+    ["guid"]=>
+    string(58) "http://dev.freiestheater.at/?post_type=produktion&p=6"
+    ["menu_order"]=>
+    string(1) "0"
+    ["post_type"]=>
+    string(10) "produktion"
+    ["post_mime_type"]=>
+    string(0) ""
+    ["comment_count"]=>
+    string(1) "0"
+    ["meta_id"]=>
+    string(3) "546"
+    ["post_id"]=>
+    string(1) "6"
+    ["meta_key"]=>
+    string(14) "events_5_datum"
+    ["meta_value"]=>
+    string(10) "1396015200"
+  }
+  [3]=>
+  object(stdClass)#2613 (27) {
+    ["ID"]=>
+    string(1) "6"
+    ["post_author"]=>
+    string(1) "1"
+    ["post_date"]=>
+    string(19) "2014-03-17 11:32:15"
+    ["post_date_gmt"]=>
+    string(19) "2014-03-17 11:32:15"
+    ["post_content"]=>
+    string(836) "Ein Gastspiel des Stadttheaters Kufstein
+
+Regisseur Klaus Reitberger inszeniert den 2456 Jahre alten Polit-Psycho-Thriller „Antigone“, das wohl bekannteste Stück von Sophokles.
+
+
+
+Es ist ein Juwel der Weltliteratur, ein kostbares Vermächtnis aus den Uranfängen der Theatergeschichte im antiken Griechenland. Erzählt wird ein blutiger Reigen aus Machtstreben und Familienliebe. Nichts ist hier verstaubt. Die Fragen, mit denen uns die Geschichte der Antigone – Tochter des Ödipus – entgegentritt, haben auch in unserer Gegenwart nichts an ihrer Sprengkraft eingebüßt.
+
+Modern inszeniert von Klaus Reitberger, doch mit klassischen Texten, spielt das Stadttheater Kufstein dieses griechische Drama in der Art eines Stubenspieles. Es gibt keine Bühne. Es wird mitten im Publikum gespielt."
+    ["post_title"]=>
+    string(8) "Antigone"
+    ["post_excerpt"]=>
+    string(0) ""
+    ["post_status"]=>
+    string(7) "publish"
+    ["comment_status"]=>
+    string(4) "open"
+    ["ping_status"]=>
+    string(4) "open"
+    ["post_password"]=>
+    string(0) ""
+    ["post_name"]=>
+    string(8) "antigone"
+    ["to_ping"]=>
+    string(0) ""
+    ["pinged"]=>
+    string(0) ""
+    ["post_modified"]=>
+    string(19) "2014-03-23 21:41:30"
+    ["post_modified_gmt"]=>
+    string(19) "2014-03-23 21:41:30"
+    ["post_content_filtered"]=>
+    string(0) ""
+    ["post_parent"]=>
+    string(1) "0"
+    ["guid"]=>
+    string(58) "http://dev.freiestheater.at/?post_type=produktion&p=6"
+    ["menu_order"]=>
+    string(1) "0"
+    ["post_type"]=>
+    string(10) "produktion"
+    ["post_mime_type"]=>
+    string(0) ""
+    ["comment_count"]=>
+    string(1) "0"
+    ["meta_id"]=>
+    string(3) "459"
+    ["post_id"]=>
+    string(1) "6"
+    ["meta_key"]=>
+    string(14) "events_3_datum"
+    ["meta_value"]=>
+    string(10) "1396033200"
+  }
+  [4]=>
+  object(stdClass)#2612 (27) {
+    ["ID"]=>
+    string(2) "91"
+    ["post_author"]=>
+    string(1) "1"
+    ["post_date"]=>
+    string(19) "2014-03-23 21:43:06"
+    ["post_date_gmt"]=>
+    string(19) "2014-03-23 21:43:06"
+    ["post_content"]=>
+    string(12) "lorem loresm"
+    ["post_title"]=>
+    string(12) "Lawinentraum"
+    ["post_excerpt"]=>
+    string(0) ""
+    ["post_status"]=>
+    string(7) "publish"
+    ["comment_status"]=>
+    string(4) "open"
+    ["ping_status"]=>
+    string(4) "open"
+    ["post_password"]=>
+    string(0) ""
+    ["post_name"]=>
+    string(12) "lawinentraum"
+    ["to_ping"]=>
+    string(0) ""
+    ["pinged"]=>
+    string(0) ""
+    ["post_modified"]=>
+    string(19) "2014-03-23 21:43:06"
+    ["post_modified_gmt"]=>
+    string(19) "2014-03-23 21:43:06"
+    ["post_content_filtered"]=>
+    string(0) ""
+    ["post_parent"]=>
+    string(1) "0"
+    ["guid"]=>
+    string(59) "http://dev.freiestheater.at/?post_type=produktion&p=91"
+    ["menu_order"]=>
+    string(1) "0"
+    ["post_type"]=>
+    string(10) "produktion"
+    ["post_mime_type"]=>
+    string(0) ""
+    ["comment_count"]=>
+    string(1) "0"
+    ["meta_id"]=>
+    string(3) "579"
+    ["post_id"]=>
+    string(2) "91"
+    ["meta_key"]=>
+    string(14) "events_0_datum"
+    ["meta_value"]=>
+    string(10) "1396051200"
+  }
+  [5]=>
+  object(stdClass)#2609 (27) {
+    ["ID"]=>
+    string(2) "91"
+    ["post_author"]=>
+    string(1) "1"
+    ["post_date"]=>
+    string(19) "2014-03-23 21:43:06"
+    ["post_date_gmt"]=>
+    string(19) "2014-03-23 21:43:06"
+    ["post_content"]=>
+    string(12) "lorem loresm"
+    ["post_title"]=>
+    string(12) "Lawinentraum"
+    ["post_excerpt"]=>
+    string(0) ""
+    ["post_status"]=>
+    string(7) "publish"
+    ["comment_status"]=>
+    string(4) "open"
+    ["ping_status"]=>
+    string(4) "open"
+    ["post_password"]=>
+    string(0) ""
+    ["post_name"]=>
+    string(12) "lawinentraum"
+    ["to_ping"]=>
+    string(0) ""
+    ["pinged"]=>
+    string(0) ""
+    ["post_modified"]=>
+    string(19) "2014-03-23 21:43:06"
+    ["post_modified_gmt"]=>
+    string(19) "2014-03-23 21:43:06"
+    ["post_content_filtered"]=>
+    string(0) ""
+    ["post_parent"]=>
+    string(1) "0"
+    ["guid"]=>
+    string(59) "http://dev.freiestheater.at/?post_type=produktion&p=91"
+    ["menu_order"]=>
+    string(1) "0"
+    ["post_type"]=>
+    string(10) "produktion"
+    ["post_mime_type"]=>
+    string(0) ""
+    ["comment_count"]=>
+    string(1) "0"
+    ["meta_id"]=>
+    string(3) "583"
+    ["post_id"]=>
+    string(2) "91"
+    ["meta_key"]=>
+    string(14) "events_2_datum"
+    ["meta_value"]=>
+    string(10) "1396137600"
+  }
+  [6]=>
+  object(stdClass)#2611 (27) {
+    ["ID"]=>
+    string(2) "91"
+    ["post_author"]=>
+    string(1) "1"
+    ["post_date"]=>
+    string(19) "2014-03-23 21:43:06"
+    ["post_date_gmt"]=>
+    string(19) "2014-03-23 21:43:06"
+    ["post_content"]=>
+    string(12) "lorem loresm"
+    ["post_title"]=>
+    string(12) "Lawinentraum"
+    ["post_excerpt"]=>
+    string(0) ""
+    ["post_status"]=>
+    string(7) "publish"
+    ["comment_status"]=>
+    string(4) "open"
+    ["ping_status"]=>
+    string(4) "open"
+    ["post_password"]=>
+    string(0) ""
+    ["post_name"]=>
+    string(12) "lawinentraum"
+    ["to_ping"]=>
+    string(0) ""
+    ["pinged"]=>
+    string(0) ""
+    ["post_modified"]=>
+    string(19) "2014-03-23 21:43:06"
+    ["post_modified_gmt"]=>
+    string(19) "2014-03-23 21:43:06"
+    ["post_content_filtered"]=>
+    string(0) ""
+    ["post_parent"]=>
+    string(1) "0"
+    ["guid"]=>
+    string(59) "http://dev.freiestheater.at/?post_type=produktion&p=91"
+    ["menu_order"]=>
+    string(1) "0"
+    ["post_type"]=>
+    string(10) "produktion"
+    ["post_mime_type"]=>
+    string(0) ""
+    ["comment_count"]=>
+    string(1) "0"
+    ["meta_id"]=>
+    string(3) "585"
+    ["post_id"]=>
+    string(2) "91"
+    ["meta_key"]=>
+    string(14) "events_3_datum"
+    ["meta_value"]=>
+    string(10) "1396310400"
+  }
+}

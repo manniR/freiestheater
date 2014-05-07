@@ -12,12 +12,6 @@
 
     </div>
 
-    <?php
-    echo '<pre>';
-    var_dump(wp_bootstrap_main_nav());
-    echo '</pre>';
-    ?>
-
     <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
       <!--THE LOOP-->
 

@@ -1,51 +1,13 @@
 <?php get_header(); get_header_image()?>
-
+INDEX
 <!--SLIDER-->
-<div id="slider">
+<div id="slider" style="max-height: 340px;">
     <!--SLIDER-->
 
     <div class="container">
         <?= do_shortcode("[slider id='64' name='Home']"); ?>
     </div>
 </div>
-
-<?php
-if ( have_posts() ) {
-  while ( have_posts() ) {
-    the_post();
-    //
-    // Post Content here
-    echo('hello');
-    //
-  } // end while
-} // end if
-?>
-
-
-<?php
-/**
- * @var wpdb $wpdb
- *
- */
-
-$rows = $wpdb->get_results($wpdb->prepare(
-  "
-    SELECT * FROM $wpdb->posts inner join $wpdb->postmeta ON $wpdb->posts.ID = $wpdb->postmeta.post_id
-    WHERE $wpdb->posts.post_type = %s
-    AND $wpdb->postmeta.meta_key LIKE %s
-    AND $wpdb->postmeta.meta_value >= %s
-    ORDER BY $wpdb->postmeta.meta_value ASC
-    ",
-  'produktion', //posttype
-  'events_%_datum', // meta_name: $ParentName_$RowNumber_$ChildName
-  strtotime("now") // meta_value: 'type_3' for example
-
-));
-
-setlocale(LC_ALL, 'de_DE.utf-8'); //  deutsche Monatsnamen
-
-?>
-
 
 <main role="main"><!--MAIN CONTENT-->
 

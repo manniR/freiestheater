@@ -1,0 +1,76 @@
+SELECT p.*, e.* FROM $wpdb->posts p, $wpdb->postmeta e
+    WHERE p.post_type= %s
+    AND e.meta_key LIKE %s
+    AND e.meta_value >= %s
+    AND e.post_id = p.ID
+    ORDER BY e.meta_value ASC
+    LIMIT 0,2
+
+
+
+
+
+
+
+
+SELECT p.ID,p.post_title,p.post_content, e.meta_id, e.meta_value FROM $wpdb->posts p LEFT JOIN  $wpdb->postmeta e ON p.ID = e.post_id
+    WHERE p.post_type LIKE %s
+    AND e.meta_key LIKE %s
+    AND e.meta_value >= %s
+    ORDER BY e.meta_value ASC
+
+    LIMIT 0,4
+
+
+
+SELECT p.*, e.* FROM $wpdb->posts p  LEFT JOIN $wpdb->postmeta ee ON p.ID = e.post_id
+    WHERE p.post_type LIKE %s
+    AND e.meta_value >= %s
+    
+    ORDER BY e.meta_value ASC
+    LIMIT 0,2
+
+
+
+
+SELECT
+        p.ID as POST_ID
+        GROUP_CONCAT(e.meta_id,'=>',e.meta_value) as EVENTS
+
+    FROM
+         $wpdb->posts p,
+         $wpdb->postmeta e
+    WHERE
+            p.post_type LIKE %s
+         AND e.post_id = p.ID
+         AND e.meta_key LIKE %s
+         AND e.meta_value >= %s
+
+
+
+
+
+SELECT
+        p.*,
+        CONCAT('[',
+            GROUP_CONCAT('{\"meta_id\":','\"',e.meta_id,'\",'
+                          ,'\"meta_value\": ','\"',from_unixtime(e.meta_value),'\"}')
+            ,']') as post_events_json
+
+    FROM
+         $wpdb->posts p,
+         $wpdb->postmeta e
+    WHERE
+            p.post_type LIKE %s
+         AND e.post_id = p.ID
+         AND e.meta_key LIKE %s
+         AND e.meta_value >= %s
+    group by
+        p.ID
+    ORDER by
+        e.meta_value ASC
+
+    LIMIT
+        0,4
+
+

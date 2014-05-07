@@ -26,6 +26,54 @@
     font-style: normal;
 
 }
+@font-face {
+    font-family: 'icomoon';
+    src:url('fonts/icomoon.eot?-cpovfd');
+    src:url('fonts/icomoon.eot?#iefix-cpovfd') format('embedded-opentype'),
+    url('fonts/icomoon.woff?-cpovfd') format('woff'),
+    url('fonts/icomoon.ttf?-cpovfd') format('truetype'),
+    url('fonts/icomoon.svg?-cpovfd#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    font-family: 'icomoon';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-file-pdf:before {
+    content: "\e600";
+}
+.icon-file-pdf{font-size: 1.5em; line-height: 2em; }
+
+/*
+ MAIN
+*/
+
+.logo{width:100%;text-indent: -200%; background: url('img/logo.gif') no-repeat; background-size: 100%;}
+main, article{padding-bottom:2em;}
+.paddT2em{padding-top: 2em;}
+.paddT1em{padding-top: 1em;}
+article.single-page{margin-top: 2em;}
+.input-group .form-control{z-index: 0;} /*otherwise overlap with jquery ligthbox*/
+
+
+/*search*/
+header .btn{padding:2px 4px;font-size:13px;}
+header .socials{font-size: 1.2em;}
+header .form-control{height: 2em; padding:2px 4px; font-size: 12px;line-height: 1em;}
+
+
 
 /*
  adding | to all nav item except last
@@ -43,31 +91,20 @@
 /*center navbar*/
 @media (max-width: 768px) {
     .navbar-nav .seperator{display: none;}
+    .image{display:none;}
+    .logo{width:100%;}
+    #slider{display: none;}
+    main{margin-bottom: 40%;}/*sticky footer fix iphone*/
 }
 
+@media (max-width: 400px) {
+    main{margin-bottom: 100%;} /*sticky footer fix iphone*/
+}
 @media (min-width: 1000px) {
 
 }
 
-/*
- HEADER IMAGE
-*/
 
-.header-image {width: 100%;}
-
-.header-feature {
-    position: relative;
-
-}
-
-#logo {
-    margin: 0 auto;
-    width: 80%;
-    position: absolute;
-    left: 10%;
-    bottom: -11px;
-    z-index:0;
-}
 
 /*
  CUSTOM FONTS
@@ -112,12 +149,18 @@ article.event time {line-height: 3em;}
 article.event time > span {
     position: relative;
     width: 100%;
-    background: #020202;
+    /*background: #333;*/
     color: #f9f9f9;
     padding: 0.15em 0.5em 0em 0.5em;
     float: left;
     line-height: 2em;
 }
+
+.black{color: #333;} /*black BG normal*/
+.blackBG{background: #333;} /*black BG normal*/
+.orangeBG{background: rgb(234, 138, 57);} /*orange BG if Vorbrenner*/
+.orange{color: rgb(234, 138, 57);} /*orange BG if Vorbrenner*/
+
 article.event time > span > span:first-child{font-size: 2em; padding-right: 0.1em;} /*tag*/
 article.event time > span > span:last-child{font-size: 1.4em;position: absolute;right:0.5em;bottom:0;} /*zeit*/
 article.odd .col-event-info {float: right;}
@@ -125,6 +168,7 @@ article.odd .col-event-info .row .col-event-date {float: right;}
 article.event {margin-bottom: 2em;}
 section.about {}
 
+.vorbrenner h5 {font-size:1.4em; margin:0;line-height:1.8em;}
 
 
 
@@ -132,8 +176,8 @@ section.about {}
  EVENT LISTING HELPER CLASSES
 */
 .w100{width: 100%;}
-.border-top-black {border-top: 3px solid #020202;}
-.border-top-orange {border-top: 3px solid orangered;}
+.border-top-black {border-top: 3px solid #333;}
+.border-top-orange {border-top: 3px solid rgb(234, 138, 57);}
 .orange-bg{background: orangered;}
 .green{background: green}
 .col-33{width: 33.33333333333333%;float: left;} /*33%*/
@@ -143,8 +187,14 @@ section.about {}
 .tickets-info{}
 .bb{font-size: 1.3em; font-weight: 600;}
 .accentuate{font: 1.5em premieraregular, serif;}
-.premiera-smaller{font: 0.9em premieraregular, serif; color: #020202;}
+.premiera-smaller{font: 0.9em premieraregular, serif; color: #333;}
+.panel-title{margin-top: -1.8em;} /*neg margin for matching baseline*/
 
+
+.image {min-height:234px;max-height:234px; overflow:hidden;}
+.col-event-info{min-height:234px;position:relative;}
+.event-header{min-height: 125px} /*stretch height to image height*/
+.termine .ticket a{line-height: 1.9em;}
 /*
  BESTELLFORMULAR
 */
@@ -154,28 +204,30 @@ section.about {}
 .form-event-title > p > span{display: block;font-weight: 800;font-size: 1.4em}
 .form-ticketreservierung .form-group input{background: #f2f2f2; }
 .form-ticketreservierung .ticket-form-note{font-size: 0.9em;}
+
 /*
  FOOTER
 */
 
 /* Sticky footer styles */
-html {position: relative;/*min-height: 100%;*/}
+html {position: relative;min-height: 100%;}
+
 /* Margin bottom by footer height */
-body {/*margin-bottom: 320px*/;color: #020202;}
+body {padding-bottom: 150px;}
+
 
 body > footer {
     /*sticks footer to bottom*/
-    /*position: absolute;*/
-    /*bottom: 0;*/
-    /*width: 100%;*/
-    /* Set the fixed height of the footer here */
-    /*min-height: 320px;*/
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /*Set the fixed height of the footer here*/
+    min-height: 150px;
     /*set full width bg-color if necessary*/
     background:#f8f8f8;
 }
 
-
-body > footer .supplementary{background: white; border-top: 1px solid #020202; font-size: 0.8em;padding-top: 0.8em;}
+body > footer .supplementary{background: white; border-top: 1px solid #333; font-size: 0.8em;padding-top: 0.8em;}
 
 /*
  GALLERY
@@ -183,3 +235,19 @@ body > footer .supplementary{background: white; border-top: 1px solid #020202; f
 .gallery {list-style:none;overflow:hidden;}
 .gallery > li {float:left; padding:1em;}
 
+/*
+ section about on home
+*/
+/*google maps iframe set 100% so it fits column width*/
+body > main > section.container.about > div > div:nth-child(3) iframe{width:100% !important; height: 300px !important;}
+/*make liebesakt img responsive */
+body > main > section.container.about > div > div:nth-child(2) img{width:100% !important;}
+
+
+/*Programm Archive*/
+.month-archive .disabled a{color:#ffffff !important; pointer-events:none !important;}
+.month-archive a{padding: 0 2rem !important;}
+.month-prev{}
+.month-name{}
+.month-name h3{line-height: 0.9;text-align:center;}
+.month-next{}
