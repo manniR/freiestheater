@@ -1,7 +1,7 @@
 <?php get_header(); get_header_image()?>
 INDEX
 <!--SLIDER-->
-<div id="slider" style="max-height: 340px;">
+<div id="slider" style="max-height: 340px;min-height:339px;">
     <!--SLIDER-->
 
     <div class="container">

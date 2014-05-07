@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1ea06df2-db9a-4c8e-84a1-169c4a2a982d" name="Default" comment="" />
+    <list default="true" id="1ea06df2-db9a-4c8e-84a1-169c4a2a982d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/content/themes/freiestheater/partials/template-ticket-reservation-form.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/content/themes/freiestheater/css/bootstrap.min.css" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/content/themes/freiestheater/page-home-BU.php" afterPath="$PROJECT_DIR$/public/content/themes/freiestheater/page-home.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/content/themes/freiestheater/page-home.php" afterPath="$PROJECT_DIR$/public/content/themes/freiestheater/page-home-test.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/content/themes/freiestheater/index.php" afterPath="$PROJECT_DIR$/public/content/themes/freiestheater/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/content/themes/freiestheater/page-programm.php" afterPath="$PROJECT_DIR$/public/content/themes/freiestheater/page-programm.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/content/themes/freiestheater/partials/template-ticketinfos.php" afterPath="$PROJECT_DIR$/public/content/themes/freiestheater/partials/template-ticketinfos.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="freiestheater.at.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -23,131 +32,92 @@
     <favorites_list name="freiestheater.at" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="vertical" split-proportion="0.24394463">
-      <split-first>
-        <leaf>
-          <file leaf-file-name="page-programm.php" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/public/content/themes/freiestheater/page-programm.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="1.2039801" vertical-offset="66" max-vertical-offset="4180">
-                  <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="functions.php" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/public/content/themes/freiestheater/functions.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="2684" max-vertical-offset="4554">
-                  <caret line="127" column="9" selection-start-line="127" selection-start-column="9" selection-end-line="127" selection-end-column="9" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="rewrite.php" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/public/content/themes/freiestheater/library/rewrite.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="155" max-vertical-offset="946">
-                  <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/public/content/themes/freiestheater/style.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="5192" max-vertical-offset="5698">
-                  <caret line="236" column="0" selection-start-line="236" selection-start-column="0" selection-end-line="236" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="page-home.php" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/public/content/themes/freiestheater/page-home.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.7287066" vertical-offset="0" max-vertical-offset="634">
-                  <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="page-home-BU.php" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/public/content/themes/freiestheater/page-home-BU.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4378">
-                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="queries.php" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/public/content/themes/freiestheater/library/queries.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="2933" max-vertical-offset="6138">
-                  <caret line="151" column="9" selection-start-line="151" selection-start-column="9" selection-end-line="151" selection-end-column="9" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/public/index.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="440">
-                  <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/public/content/themes/freiestheater/index.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3806">
-                  <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/public/content/themes/freiestheater/header.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="1606" max-vertical-offset="2574">
-                  <caret line="95" column="128" selection-start-line="95" selection-start-column="92" selection-end-line="95" selection-end-column="128" />
-                  <folding>
-                    <marker date="1398765229000" expanded="true" signature="1214:1460" placeholder="..." />
-                    <marker date="1398765229000" expanded="true" signature="1307:1332" placeholder="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/content/themes/freiestheater/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-12.892858" vertical-offset="3269" max-vertical-offset="5698">
+              <caret line="165" column="11" selection-start-line="165" selection-start-column="8" selection-end-line="165" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="template-ticket-reservation-form.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/content/themes/freiestheater/partials/template-ticket-reservation-form.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="260" max-vertical-offset="1386">
+              <caret line="57" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="57" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page-programm.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/content/themes/freiestheater/page-programm.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.45293072" vertical-offset="4044" max-vertical-offset="5786">
+              <caret line="207" column="50" selection-start-line="207" selection-start-column="50" selection-end-line="207" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="template-ticketinfos.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/content/themes/freiestheater/partials/template-ticketinfos.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="506">
+              <caret line="5" column="112" selection-start-line="5" selection-start-column="65" selection-end-line="5" selection-end-column="112" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rewrite.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/content/themes/freiestheater/library/rewrite.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="946">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/content/themes/freiestheater/page.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="418">
+              <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/content/themes/freiestheater/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3806">
+              <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/public/content/themes/freiestheater/loop.php" />
-        <option value="$PROJECT_DIR$/db/dev.freiestheater.at_2014_03_18_12-41 PM deploy.sql" />
-        <option value="$PROJECT_DIR$/public/content/themes/freiestheater/library/bones.php" />
         <option value="$PROJECT_DIR$/public/content/themes/freiestheater/library/menus.php" />
         <option value="$PROJECT_DIR$/public/content/themes/320press/index.php" />
         <option value="$PROJECT_DIR$/public/content/themes/freiestheater/archive-aktuelles.php" />
@@ -168,7 +138,6 @@
         <option value="$PROJECT_DIR$/public/content/themes/freiestheater/single-presse.php" />
         <option value="$PROJECT_DIR$/public/content/themes/freiestheater/js/editor-custom-quicktags.js" />
         <option value="$PROJECT_DIR$/public/content/themes/freiestheater/partials/template-ticketsinfo.php" />
-        <option value="$PROJECT_DIR$/public/content/themes/freiestheater/partials/template-ticketinfos.php" />
         <option value="$PROJECT_DIR$/public/content/themes/freiestheater/partials/loop-page.php" />
         <option value="$PROJECT_DIR$/public/content/themes/freiestheater/page-liebesakt.php" />
         <option value="$PROJECT_DIR$/public/content/themes/freiestheater/page-vorbrenner.php" />
@@ -178,7 +147,6 @@
         <option value="$PROJECT_DIR$/public/index.php" />
         <option value="$PROJECT_DIR$/public/conf/wp.php" />
         <option value="$PROJECT_DIR$/public/content/themes/freiestheater/search.php" />
-        <option value="$PROJECT_DIR$/public/content/themes/freiestheater/index.php" />
         <option value="$PROJECT_DIR$/public/content/themes/freiestheater/category-aktuelles.php" />
         <option value="$PROJECT_DIR$/public/content/themes/freiestheater/archive-presse.php" />
         <option value="$PROJECT_DIR$/public/content/themes/320press/header.php" />
@@ -195,6 +163,11 @@
         <option value="$PROJECT_DIR$/public/content/themes/freiestheater/library/rewrite.php" />
         <option value="$PROJECT_DIR$/public/content/themes/freiestheater/library/queries.php" />
         <option value="$PROJECT_DIR$/public/content/themes/freiestheater/partials/template-produktionsdetailsMonthly.php" />
+        <option value="$PROJECT_DIR$/public/content/themes/freiestheater/library/bookings.php" />
+        <option value="$PROJECT_DIR$/public/content/themes/freiestheater/partials/template-form.php" />
+        <option value="$PROJECT_DIR$/public/content/themes/freiestheater/index.php" />
+        <option value="$PROJECT_DIR$/public/content/themes/freiestheater/partials/template-ticket-reservation-form.php" />
+        <option value="$PROJECT_DIR$/public/content/themes/freiestheater/partials/template-ticketinfos.php" />
         <option value="$PROJECT_DIR$/public/content/themes/freiestheater/page-programm.php" />
       </list>
     </option>
@@ -204,9 +177,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="961" />
-    <option name="y" value="22" />
-    <option name="width" value="958" />
+    <option name="x" value="164" />
+    <option name="y" value="169" />
+    <option name="width" value="1790" />
     <option name="height" value="1178" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -253,13 +226,13 @@
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="freiestheater.at" />
+              <option name="myItemId" value="dev.freiestheater.at" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="freiestheater.at" />
+              <option name="myItemId" value="dev.freiestheater.at" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -269,39 +242,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="freiestheater.at" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="dev.freiestheater.at" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sandbox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="freiestheater.at" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dev.freiestheater.at" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sandbox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="backups" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="freiestheater.at" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -315,7 +256,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="freiestheater.at" />
+              <option name="myItemId" value="dev.freiestheater.at" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -333,7 +274,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="freiestheater.at" />
+              <option name="myItemId" value="dev.freiestheater.at" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -359,7 +300,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="freiestheater.at" />
+              <option name="myItemId" value="dev.freiestheater.at" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -389,7 +330,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="freiestheater.at" />
+              <option name="myItemId" value="dev.freiestheater.at" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -413,13 +354,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="library" />
+              <option name="myItemId" value="angular" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="freiestheater.at" />
+              <option name="myItemId" value="dev.freiestheater.at" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -439,28 +380,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="freiestheater.at" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dev.freiestheater.at" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -474,7 +393,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
-    <property name="options.lastSelected" value="preferences.keymap" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.General" />
     <property name="options.splitter.main.proportions" value="0.1828528" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -555,31 +474,31 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="961" y="22" width="958" height="1178" extended-state="0" />
-    <editor active="false" />
+    <frame x="164" y="169" width="1790" height="1178" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17560554" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25052193" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32933578" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32958478" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24947807" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3058455" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="281" y="33" width="355" height="1148" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18882681" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2821229" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="281" y="33" width="355" height="1148" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17560554" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32958478" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -605,27 +524,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/content/themes/freiestheater/page-presse--.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07319304" vertical-offset="0" max-vertical-offset="1093">
-          <caret line="4" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/content/themes/freiestheater/single-presse.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="220">
-          <caret line="10" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/site/wp-includes/js/quicktags.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="6020" max-vertical-offset="13040">
-          <caret line="72" column="24" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/content/themes/freiestheater/partials/loop-single.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.07319304" vertical-offset="0" max-vertical-offset="1093">
@@ -634,9 +532,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/dev.freiestheater.at-28.03.14-17-07-deploy">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.42685372" vertical-offset="2914" max-vertical-offset="35740">
           <caret line="167" column="37" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -644,9 +539,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/dev.freiestheater.at-28.03.14-17-07-local">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.0085633" vertical-offset="1060" max-vertical-offset="35740">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -654,9 +546,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/dev.freiestheater.at-17.03.14-23-28 -deploy">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3739296" vertical-offset="2147" max-vertical-offset="17360">
           <caret line="127" column="32" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -664,9 +553,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/dev.freiestheater.at-17.03.14-23-28">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.25118935" vertical-offset="2876" max-vertical-offset="17360">
           <caret line="157" column="41" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -749,13 +635,6 @@
     <entry file="file://$PROJECT_DIR$/public/content/themes/freiestheater/favicon.ico">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/content/themes/freiestheater/page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23614895" vertical-offset="0" max-vertical-offset="1101">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/content/themes/freiestheater/category.php">
@@ -864,22 +743,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/content/themes/freiestheater/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="5016" max-vertical-offset="5698">
-          <caret line="236" column="0" selection-start-line="236" selection-start-column="0" selection-end-line="236" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/content/themes/freiestheater/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1606" max-vertical-offset="2574">
           <caret line="95" column="128" selection-start-line="95" selection-start-column="92" selection-end-line="95" selection-end-column="128" />
-          <folding>
-            <marker date="1398765229000" expanded="true" signature="1214:1460" placeholder="..." />
-            <marker date="1398765229000" expanded="true" signature="1307:1332" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -890,18 +757,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/content/themes/freiestheater/functions.php">
+    <entry file="file://$PROJECT_DIR$/public/content/themes/freiestheater/partials/template-produktionsdetails.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2684" max-vertical-offset="4554">
-          <caret line="127" column="9" selection-start-line="127" selection-start-column="9" selection-end-line="127" selection-end-column="9" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
+          <caret line="16" column="138" selection-start-line="16" selection-start-column="126" selection-end-line="16" selection-end-column="138" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.php">
+    <entry file="file://$PROJECT_DIR$/public/content/themes/freiestheater/partials/template-ticketinfosMonthly.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="440">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="801">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/content/themes/freiestheater/partials/template-produktionsdetailsMonthly.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32958803" vertical-offset="0" max-vertical-offset="801">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/content/themes/freiestheater/library/queries.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2933" max-vertical-offset="6138">
+          <caret line="151" column="9" selection-start-line="151" selection-start-column="9" selection-end-line="151" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/content/themes/freiestheater/library/bookings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7897436" vertical-offset="2134" max-vertical-offset="3278">
+          <caret line="109" column="0" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -909,15 +796,49 @@
     <entry file="file://$PROJECT_DIR$/public/content/themes/freiestheater/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3806">
-          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1758437" vertical-offset="0" max-vertical-offset="1126">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/content/themes/freiestheater/page-home-BU.php">
+    <entry file="file://$PROJECT_DIR$/public/content/themes/freiestheater/page-home.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4378">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/content/themes/freiestheater/page-home-test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41509435" vertical-offset="0" max-vertical-offset="1113">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/content/themes/freiestheater/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3330373" vertical-offset="1121" max-vertical-offset="4554">
+          <caret line="73" column="9" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/content/themes/freiestheater/page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="418">
+          <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
           <folding />
         </state>
       </provider>
@@ -930,58 +851,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/content/themes/freiestheater/partials/template-produktionsdetails.php">
+    <entry file="file://$PROJECT_DIR$/public/content/themes/freiestheater/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
-          <caret line="16" column="138" selection-start-line="16" selection-start-column="126" selection-end-line="16" selection-end-column="138" />
+        <state vertical-scroll-proportion="-12.892858" vertical-offset="3269" max-vertical-offset="5698">
+          <caret line="165" column="11" selection-start-line="165" selection-start-column="8" selection-end-line="165" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/content/themes/freiestheater/partials/template-ticketinfosMonthly.php">
+    <entry file="file://$PROJECT_DIR$/public/content/themes/freiestheater/partials/template-ticket-reservation-form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="801">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="260" max-vertical-offset="1386">
+          <caret line="57" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="57" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/content/themes/freiestheater/partials/template-ticketinfos.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46691635" vertical-offset="0" max-vertical-offset="801">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/content/themes/freiestheater/page-home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7287066" vertical-offset="0" max-vertical-offset="634">
-          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="506">
+          <caret line="5" column="112" selection-start-line="5" selection-start-column="65" selection-end-line="5" selection-end-column="112" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/content/themes/freiestheater/page-programm.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.2039801" vertical-offset="66" max-vertical-offset="4180">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/content/themes/freiestheater/partials/template-produktionsdetailsMonthly.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32958803" vertical-offset="0" max-vertical-offset="801">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/content/themes/freiestheater/library/queries.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2933" max-vertical-offset="6138">
-          <caret line="151" column="9" selection-start-line="151" selection-start-column="9" selection-end-line="151" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.45293072" vertical-offset="4044" max-vertical-offset="5786">
+          <caret line="207" column="50" selection-start-line="207" selection-start-column="50" selection-end-line="207" selection-end-column="50" />
           <folding />
         </state>
       </provider>

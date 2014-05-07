@@ -3,7 +3,7 @@
 <?php global $events;?>
 <?php if($fields->eintritt): ?>
     <div class="col-xs-3 col-sm-3 col-md-2 paddR0">
-        <span class="ticket-symbol"></span>
+		    <a data-toggle="collapse" data-parent="#accordion" href="#reservierung-event-<?= $events[0]->meta_id; ?>"><span class="ticket-symbol">&nbsp;</span></a>
     </div>
     <div class="col-xs-8">
         <p>
