@@ -1,6 +1,7 @@
 (function($){
 
-    $('.gallery').lightbox({minSize: 480,blur:false, nav:false});
+    $('.gallery').lightbox({blur:false, nav:false});
+
 
 })(jQuery);
 
