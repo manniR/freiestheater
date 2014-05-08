@@ -6,6 +6,11 @@
  * Time: 16:03
  */
 
+
+/**
+ * create database tables for booking
+ */
+
 function add_dbTables () {
 
 		global $wpdb;
@@ -36,7 +41,7 @@ add_action('after_setup_theme','add_dbTables');
 
 
 
-/*
+/**
  * handling angular form submission
  */
 
