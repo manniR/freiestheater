@@ -7,7 +7,7 @@
  */
 // Get Bones and Core Up & Running!
 require_once('library/bones.php');
-require_once('library/admin.php');
+//require_once('library/admin.php');
 //require_once('library/custom-post-type-ui.php');
 require_once('library/queries.php');
 require_once('library/menus.php');
@@ -15,6 +15,9 @@ require_once('library/extras.php');
 require_once('library/extras.php');
 require_once('library/helper.php');
 require_once('library/rewrite.php');
+//require_once('library/bookings.php');
+require_once('library/bookings-admin.php');
+require_once('library/bookings-admin-ajax.php');
 
 
 // Set content width

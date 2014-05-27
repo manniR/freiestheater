@@ -7,6 +7,9 @@
  */
 
 
+
+
+
 /**
  * create database tables for booking
  */
@@ -40,6 +43,25 @@ register_activation_hook(__FILE__,'add_dbTables');
 add_action('after_setup_theme','add_dbTables');
 
 
+/**
+ * enqueue scripts
+ */
+
+if (!function_exists("angular_scripts")) {
+		function angular_scripts()
+		{
+				//echo(get_stylesheet_directory_uri());
+				wp_enqueue_script('angular','http://ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js', array(), null, false);
+				wp_enqueue_script('app',get_stylesheet_directory_uri() . '/angular/app.js', array('angular'), null, true);
+//				wp_enqueue_script('controller',get_stylesheet_directory_uri() . '/angular/controller.js', array('angular'), null, true);
+//				wp_enqueue_script('directives',get_stylesheet_directory_uri() . '/angular/directives.js', array('angular'), null, true);
+//				wp_enqueue_script('services',get_stylesheet_directory_uri() . '/angular/services.js', array('angular'), null, true);
+
+		}
+}
+add_action('wp_enqueue_scripts', 'angular_scripts');
+
+
 
 /**
  * handling angular form submission
@@ -58,96 +80,83 @@ add_action('wp_ajax_test_ajax', 'test_ajax');
 
 function process_booking() {
 
-
 		header("Content-Type: application/json");
-
-
-//		TODO process Booking
-
-		global $wpdb;
-		$table_name = $wpdb->prefix . "bookings";
-		/*
-				$name = $_POST['name'];
-				$phone = $_POST['phone'];
-				$email = $_POST['email'];
-				$address = $_POST['address'];
-
-				if($wpdb->insert('customers',array(
-								'name'=>$name,
-								'email'=>$email,
-								'address'=>$address,
-								'phone'=>$phone
-						))===FALSE){
-
-						echo "Error";
-
-				}
-				else {
-						echo "Customer '".$name. "' successfully added, row ID is ".$wpdb->insert_id;
-
-				}
-				die();*/
-
-
-//		$response = array('email' => $_POST, 'password'=> $_POST['password']);
-
-		/*foreach ( $_REQUEST as $key => $value) {
-						echo $key . '::' . $value . '<br>';
- 		}
-
-		$data = array(
-				'email'=>$_REQUEST['email'],
-				'password'=>$_REQUEST['password'],
-		);
-
-		echo $_SERVER['REQUEST_METHOD'];
-*/
 
 		$postdata = file_get_contents('php://input');
 		$request = json_decode($postdata);
 
-		if($wpdb->insert($table_name ,array(
-						'name'=>$request->password,
-						'email'=>$request->email
-				))===FALSE){
+		$update = update_free_seats(  $request->tickets_count,
+																	$request->post_id,
+																	$request->meta_key
+																);
 
-				echo "Error";
-
-		}
-		else {
-
-				echo "Customer '".$request->password. "' successfully added, row ID is ".$wpdb->insert_id;
-				add_filter( 'wp_mail_content_type', 'set_html_content_type' );
-				$headers = 'From: FREIES THEATER INNSBRUCK <myname@example.com>' . "\r\n";
-				$to = 'manfred.raggl@chello.at';
-				$subject = 'karten-reservierung';
-				$message = '<p><bold>karten</bold> fuer die <em>vorstellung</em> wurden reserviert!</p>';
-
-				if (wp_mail($to, $subject,$message , $headers, $attachments=NULL )){
-
-						// Reset content-type to avoid conflicts -- http://core.trac.wordpress.org/ticket/23578
-
-						echo "email send";
-
+		//CHECK IF UPDATE WAS SUCCESSFULL
+		if (array_key_exists('error', $update)){
+				// ERROR -> return-value =  array('error'=>'zuwenig freie plätze','available' => $available);
+		}else{
+				//SUCCESS return-value array('available' => $balance, 'count' => $count);
+				// SAVE BOOKING
+				$saved_booking = ft_insert_booking($request);
+				if($saved_booking!==FALSE){
+						// SUCCESS -> SEND EMAIL
+						ft_send_mail($request);
+						return array('message'=>'email wurde verschickt');
+						// TODO UPDATE VIEW
 				}
-				remove_filter( 'wp_mail_content_type', 'set_html_content_type' );
+				else {
 
-
-
-
-
+						// ERROR
+				}
 		}
-/*
-
-		echo 'email:: '.$request->email;
-		echo 'password:: '.$request->password;*/
 		die();
-
 }
+
 add_action('wp_ajax_nopriv_process_booking', 'process_booking');
 add_action('wp_ajax_process_booking', 'process_booking');
+
+
+// send mail
+function ft_send_mail($request){
+
+		add_filter( 'wp_mail_content_type', 'set_html_content_type' );
+		$headers = 'From: FREIES THEATER INNSBRUCK <myname@example.com>' . "\r\n";
+		$to = $request->email;
+		$subject = 'Kartenreservierung FTI';
+		$message = '<p>Vielen Dank für Ihre Reservierung, die wir hiermit bestätigen!<br>
+										Bitte kontrollieren Sie den von Ihnen gewählten Termin und die Kartenanzahl:<br><br>
+
+										<strong>'. $request->production_title .'</strong><br>
+										Datum: '.$request->meta_value.'<br>
+										Stückzahl: '.$request->tickets_count .	' <br>
+										Name:'.$request->name.'<br>
+										<br>
+										<br>
+										<br>
+										Bei Rückfragen schreiben Sie uns bitte eine Mail an: info@freiestheater.at <br><br>
+										<br>
+										Wenn nicht anders angegeben liegen reservierte Karten bis längstens 15 Minuten vor Vorstellungsbeginn an der Abendkassa zur Abholung bereit.<br>
+										- Bezahlung nur in bar möglich<br>
+										- Freie Platzwahl<br>
+										<br>
+										Wir freuen uns auf Ihren Besuch!
+
+										</p>';
+
+		if (wp_mail($to, $subject,$message , $headers, $attachments=NULL )){
+
+				// Reset content-type to avoid conflicts -- http://core.trac.wordpress.org/ticket/23578
+
+				echo "email send";
+
+		}
+		remove_filter( 'wp_mail_content_type', 'set_html_content_type' );
+
+}
 
 function set_html_content_type() {
 
 		return 'text/html';
 }
+
+
+
