@@ -17,7 +17,7 @@
 define('APP_ROOT', dirname(__DIR__));
 define('WP_HOME', 'http://dev.freiestheater.at');
 define('WP_SITEURL', WP_HOME . '/site/');
-define('WP_CONTENT_DIR', APP_ROOT . '/content/');
+define('WP_CONTENT_DIR', APP_ROOT . '/content');
 define('WP_CONTENT_URL',  WP_HOME. '/content');
 define('WP_PLUGIN_DIR',  APP_ROOT. '/content/plugins');
 define('WP_PLUGIN_URL',  WP_HOME. '/content/plugins');

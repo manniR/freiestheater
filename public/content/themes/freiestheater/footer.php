@@ -30,7 +30,7 @@
 								</div>
 						</div>
 
-						<div class="col-sm-4">
+						<div class="col-sm-4" id="newsletter">
 								<form
 										action="http://freiestheater.us6.list-manage.com/subscribe/post?u=86b1f81fbb23e8c8bea626de5&amp;id=5bd8df3ac6"
 										class="form-inline validate" method="post" id="mc-embedded-subscribe-form"

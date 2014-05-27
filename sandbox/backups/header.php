@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <!--[if lt IE 7]>
-<html  ng-app="app" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>
-<html ng-app="app"  class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>
-<html ng-app="app" class="no-js lt-ie9"> <![endif]-->
+<html class="no-js lt-ie9"> <![endif]-->
 <!--[if (gte IE 9)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!-->
-<html ng-app="app" <?php language_attributes(); ?> class="no-js"><!--<![endif]-->
+<html <?php language_attributes(); ?> class="no-js"><!--<![endif]-->
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -45,9 +45,7 @@
 					<a href="/"><h1 class="logo">"Frei est heater in nsbruck."</h1></a>
 				</div>
 				<div class="col-md-3 col-md-offset-1">
-					<div class="row">
-
-					<div class="col-xs-12 " style="margin-top: 1rem;">
+					<div class="col-md-6 col-md-offset-7 col-sm-3 col-xs-4 socials ">
 						<a href="http://www.facebook.com/FreiesTheaterInnsbruck?ref=ts&fref=ts"><span
 								class="fa-stack fa-1x" style="">
                           <!--<i class="fa fa-square-o fa-stack-2x"></i>-->
@@ -57,27 +55,9 @@
                           <!--<i class="fa fa-square-o fa-stack-2x"></i>-->
                           <i class="fa fa-twitter fa-stack-1x white"></i>
                         </span></a>
-
-<!--									<a class="btn btn-default pull-right" href="http://freiestheater.us6.list-manage.com/subscribe/post?u=86b1f81fbb23e8c8bea626de5&amp;id=5bd8df3ac6">NEWSLETTER</a>-->
-									<a class="btn pull-right" href="#newsletter-accordion" style="line-height: 2rem" data-toggle="collapse" data-parent="header">NEWSLETTER <i class="fa fa-caret-down">&nbsp;</i></a>
-
 					</div>
-							<div class="col-xs-12 panel-collapse collapse" id="newsletter-accordion" style="margin: 1rem 0;">
-									<form
-											action="http://freiestheater.us6.list-manage.com/subscribe/post?u=86b1f81fbb23e8c8bea626de5&amp;id=5bd8df3ac6"
-											class="form-inline validate" method="post" id="mc-embedded-subscribe-form"
-											name="mc-embedded-subscribe-form" role="form" target="_blank" novalidate="">
-											<div class="input-group">
-													<input type="email" class="form-control" value="" name="EMAIL" id="mce-EMAIL"
-													       placeholder="Email Adresse" required="" type="email"/>
-												<span class="input-group-btn"><button class="btn btn-primary" type="submit">Submit
-														</button></span>
-											</div>
-									</form>
-							</div>
-
-					<div class="col-xs-12" style="margin-top:1rem;">
-
+					<div class="col-md-12 col-sm-8 col-sm-offset-1 col-xs-8">
+						<div class="">
 							<form action="<?= home_url() . '/' ?>" method="get" class="" role="search">
 								<div class="input-group">
 									<input type="text" class="form-control" placeholder="Search" name="s"
@@ -90,9 +70,8 @@
 									</div>
 								</div>
 							</form>
-
+						</div>
 					</div>
-				</div>
 				</div>
 		</div>
 		<nav class="navbar-default row">

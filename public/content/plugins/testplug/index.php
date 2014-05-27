@@ -11,11 +11,13 @@
 
 
 
+
+
 class TestplugClass {
 
     public function __construct(){
 
-        add_action('admin_menu', array($this, 'admin_menue'));
+        //add_action('admin_menu', array($this, 'admin_menue'));
 
     }
 
@@ -237,7 +239,7 @@ class ReservationTable extends WP_List_Table{
 
 
 
-$testplug = new TestplugClass();
+/*$testplug = new TestplugClass();
 
-register_activation_hook( __FILE__, array($testplug, "install") );
+register_activation_hook( __FILE__, array($testplug, "install") );*/
 

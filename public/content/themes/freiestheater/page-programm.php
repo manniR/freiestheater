@@ -44,15 +44,11 @@
 						}
 
 						?>
-
 						<div class="row">
-
 								<div class="col-sm-6">
-
 										<h1 class="clearfix">Pro Gramm </h1>
 								</div>
 								<div class="col-sm-6">
-
 										<ul class="month-archive nav navbar-nav pull-right">
 												<li class="month-prev <?= ( $date->prev >= $date->start ) ? '' : 'disabled'; ?>">
 														<a href="/programm/<?= ( $date->prev >= $date->start ) ? date( 'm/Y', $date->prev ) : date( 'm/Y', $date->start ); ?>">
@@ -68,17 +64,10 @@
 														</a>
 												</li>
 										</ul>
-
-
 								</div>
 						</div>
-
 				</div>
-
-
 		</div>
-
-
 
 		<?php $rows = get_monthly_programm( $month, $year );
 
@@ -158,9 +147,20 @@
 														<!--TODO reservation form-->
 
 														<?php //get_template_part( 'partials/template', 'ticket-reservation-form' ); ?>
+														<?php $event_id=$events[0]->meta_id; ?>
 														<div id="reservierung-event-<?= $events[0]->meta_id; ?>" class="panel-collapse collapse">
 
-																		<form class="form-horizontal form-ticketreservierung" name="reservierung">
+																		<form class="form-horizontal form-ticketreservierung"
+																					name="<?= $event_id; ?>"
+																					novalidate
+																					ng-controller="BookingCtrl"
+																					ng-init="eventinfos = { 'id': '<?= $event_id; ?>',
+																																	'date' : '<?= date( 'd-m-Y H:i', date( $events[0]->meta_value ) ); ?>',
+																																	'title' : '<?= the_title(); ?>',
+																																	'availableTickets' : '<?= get_free_seats($id, $events[0]->meta_key) ?>'
+																																}"
+
+																				>
 																				<fieldset>
 																						<div class="form-event-title">
 																								<p>für die Vorstellung<span><?php the_title(); ?><br>
@@ -174,7 +174,7 @@
 																								<div class="">
 																										<input name="name" type="text" placeholder="Name"
 																										       class="form-control input-md"
-																										       required="">
+																										       >
 
 																								</div>
 																						</div>
@@ -184,7 +184,7 @@
 																								<div class="">
 																										<input name="email" type="text" placeholder="email"
 																										       class="form-control input-md"
-																										       required="">
+																										       >
 
 																								</div>
 																						</div>
@@ -202,12 +202,12 @@
 																						<div class="form-control-feedback">
 																								<label class="control-label" for="submit"></label>
 
-																								<div id="submit">
-																										<button name="submit" class="btn btn-default">Abschicken</button>
+																								<div >
+																										<button class="btn btn-default" ng-click="submitBookingForm('<?= $event_id; ?>')">Abschicken</button>
 																								</div>
 																						</div>
 																						<div class="form-control-static">
-																								<p class="ticket-form-note">
+																								<p class="ticket-form-note" >
 																										Tickets bitte 30 Minuten vor Vorstellungsbeginn abholen. <br>
 																										Sie erhalten ein Bestätigungsemail für diese Reservierung. Sollten Sie
 																										keines
